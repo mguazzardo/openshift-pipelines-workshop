@@ -6,5 +6,5 @@ spec:
   params:
     - name: url
       value: >-
-        image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/qotd:latest
+        default-route-openshift-image-registry.apps-crc.testing/pipelines-tutorial/qotd:latest
   type: image
